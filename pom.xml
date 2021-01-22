@@ -18,7 +18,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  		<sonar.host.url>http://18.188.163.75:9000/</sonar.host.url>
+  		<sonar.host.url>http://18.222.116.77:9000/</sonar.host.url>
   		<sonar.login>admin</sonar.login>
   		<sonar.password>admin123</sonar.password>
 	</properties>
@@ -82,7 +82,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://18.188.163.75:8081//nexus/content/repositories/snapshots</url>
+	    <url>http://18.222.116.77:8081///nexus/content/repositories/snapshots</url>
 	  </snapshotRepository>
 	</distributionManagement>
 	
@@ -117,3 +117,5 @@
 		</plugins>
 	</build>
 </project>
+
+
